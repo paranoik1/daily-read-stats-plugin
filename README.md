@@ -8,7 +8,6 @@
 - Записывает итог в свойство `read` в YAML-frontmatter.  
 
 ## ⚙️ Установка  
-- В корне проекта запустите команды `npm run build`
 - Скопируйте файлы `manifest.json` и `main.js` в `.obsidian/plugins/daily-read-stats-plugin`.  
 - Включите его в `Настройки → Community plugins`.  
 
