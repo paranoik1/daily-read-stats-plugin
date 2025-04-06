@@ -1,0 +1,10 @@
+{
+	"id": "daily-read-stats-plugin",
+	"name": "Daily Read Stats",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Плагин для подсчета общего кол-ва прочитанных страниц за день",
+	"author": "paranoik1",
+	"authorURL": "https://github.com/paranoik1",
+	"isDesktopOnly": false
+}
