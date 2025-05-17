@@ -57,8 +57,10 @@ export default class DailyReadStatsPlugin extends Plugin {
 
 		});
 
-		lines[readPropertyIndex] = "read: " + pagesRead
+		if (readPropertyIndex == 0) return
 
+		lines[readPropertyIndex] = "read: " + pagesRead
+		
 		let data = lines.join("\n")
 
 		await this.app.vault.modify(file, data)
